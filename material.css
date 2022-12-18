@@ -1,0 +1,28 @@
+.s{
+      
+  background-color: #04AA6D;
+  border:1px solid ;
+  height: 5px;
+  
+  width: 100px;
+  border-radius: 30rem;
+  display: block;
+  text-align: center;
+  position: center;
+  
+  padding: 30px 5px;
+  color: red;
+  letter-spacing: 4px;
+  font-size: 11px;
+  text-decoration: none;
+   overflow: hidden;
+  transition: 0.2s;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  }.s:hover{
+    background: green;
+    box-shadow: 0 0 10px green,0 0 40px green,0 0 80px green;
+  }

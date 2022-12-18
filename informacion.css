@@ -1,0 +1,82 @@
+.nombree{
+      
+    padding: 9px 9px 9px 32px;
+    outline: none;
+    font-size:  18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid orange;
+    
+
+  }.nombree:hover{
+
+border-color: blue;
+box-shadow: 0 0 5px #6dcff680;
+
+  }.emailll{
+    
+    padding: 9px 9px 9px 32px;
+    
+    font-size:  18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid orange;
+   
+
+  }.emailll:hover{
+
+box-shadow: 0 0 5px red;
+
+  }.envio{
+    
+    background-color: #04AA6D;
+    border:1px solid ;
+    height: 20px;
+    
+    width: 90px;
+    border-radius: 30rem;
+    display: block;
+    text-align: center;
+    position: auto;
+    display: inline-block;
+    padding: 20px 0px;
+      color: black;
+      letter-spacing: 4px;
+      font-size: 12px;
+      text-decoration: none;
+      overflow: hidden;
+      transition: 0.2s;
+
+    }.envio:hover{
+      background: green;
+      box-shadow: 0 0 10px green,0 0 40px green,0 0 80px green;
+    }.envio{
+    
+      background-color: #04AA6D;
+      border:1px solid ;
+      height: 20px;
+      
+      width: 90px;
+      border-radius: 30rem;
+      display: block;
+      text-align: center;
+      position: auto;
+      display: inline-block;
+      padding: 20px 0px;
+        color: black;
+        letter-spacing: 4px;
+        font-size: 12px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.2s;
+  
+      }.envio:hover{
+        background: green;
+        box-shadow: 0 0 10px green,0 0 40px green,0 0 80px green;
+      } ::-webkit-scrollbar-track {
+        background: #29002b;
+        border-radius: 50px
+      }
+       
+      
+      

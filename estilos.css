@@ -1,0 +1,219 @@
+.enlace{
+    display: inline-block;
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+    list-style: none;
+    text-decoration: none;
+}.enlace:hover{
+    color:orange;
+    background: rgba(0,0,0,0.2);
+    animation:ls ms l;  
+}
+#searchButton{
+      
+    background-color: #04AA6D;
+    border:1px solid ;
+    height: 20px;
+    
+    width: 90px;
+    border-radius: 30rem;
+    display: block;
+    text-align: center;
+    position: auto;
+    display: inline-block;
+    padding: 20px 0px;
+      color: red;
+      letter-spacing: 4px;
+      font-size: 12px;
+      text-decoration: none;
+      overflow: hidden;
+      transition: 0.2s;
+
+    }#searchButton:hover{
+      background: green;
+      box-shadow: 0 0 10px green,0 0 40px green,0 0 80px green;
+    }
+    #search{
+      
+      padding: 9px 9px 9px 32px;
+      outline: none;
+      font-size:  18px;
+      border-radius: 15px;
+      color: #444;
+      border: 3px solid #a50559;
+      background: #fff url("a/buscar.png")
+          no-repeat 9px center;
+      width: 60px;
+      transition: all .5s;
+
+    }#search:hover{
+width: 180px;
+background-color: #fff;
+border-color: #8c10b3;
+box-shadow: 0 0 5px #6dcff680;
+
+    }.logos{
+        width:300px;
+        height: 100px;
+        text-align: center;
+        align-items: center;
+       
+        
+        
+        transform: scale(2);
+    }
+      ::-webkit-scrollbar {
+        width: 20px;
+        animation-delay   : 2000,  [px];
+        animation-duration: 500s;
+        animation-timeline: 20S;
+      }
+      
+      
+      ::-webkit-scrollbar-track {
+        background: rgb(11, 172, 216);
+        border-radius: 50px
+      }
+       
+      
+      ::-webkit-scrollbar-thumb {
+        background: #ffcc00cc;
+        border-radius: 50px;
+      }
+      
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 0, 0, 0.849);
+      }::-webkit-scrollbar{
+        animation-delay   : 2000,  [px];
+        animation-duration: 500s;
+        animation-timeline: 20S;
+      }::-webkit-scrollbar-button{
+        animation-delay   : 2000,  [px];
+        animation-duration: 500s;
+        animation-timeline: 20S;
+      }::-webkit-scrollbar-corner{
+        animation-delay   : 2000,  [px];
+        animation-duration: 500s;
+        animation-timeline: 20S;
+      }.video{
+        height: 200px;
+        width: 200px;
+        
+        
+      }.titulo1{
+        text-align: left;
+        color: white;
+
+      }
+      .titulo2{
+        text-align: left;
+        color: white;
+      }
+      
+      body {
+       
+        text-align: center;
+        background-color: purple;
+       
+      }.barra{
+
+        font-family: Arial, Helvetica, sans-serif;
+        width: 15%;
+        height: 20PX;
+        position: absolute;
+        transition: .4s all;
+        z-index: 1;
+      
+      }.barra ul{
+        padding: 0px;
+        text-align: center;
+
+
+      }.barra li {
+        transition: 3.s all;
+      }.barra a{
+         text-decoration: none;
+         list-style-type: none;
+         transition: .3s all;
+         font-size: 0px;
+         padding: auto;
+
+      }.barra h2{
+        text-align: center;
+        color: white;
+        padding: 7px;
+        padding-bottom: 7px;
+        font-size: 0px;
+      }.barra img{
+        padding-top: 40px;
+        padding-left:right;
+        justify-content: right;
+        display: flex;
+        
+          justify-items: right;
+  
+      }.barra:hover{
+
+
+        width: 55%;
+        height: 84.2%;
+        background-color: black;
+      }.barra:hover h2 {
+
+        padding: 15px;
+        font-size: 20px;
+      }.barra:hover a{
+
+      font-size: 28px;
+      color: white;
+      display: block;
+      padding: 20px ;
+      
+      }.barra:hover img{
+         width: 20px;
+        height: 10px;
+      }.barra:hover li{
+        border-top: 1px solid-d black;
+        width: 50%;
+      }
+       img{
+        display:right;
+        margin:right;
+        width: 20px;
+        height: 20px;
+        text-align: right;
+        justify-content: right;
+       
+        justify-content: right;
+
+      }.titulo{
+        color: white;
+      }
+      tool-tip{
+        position: absolute;
+        z-index: 1;
+        pointer-events: none;
+        user-select: none;
+        box-shadow: 0 0 10px black;
+        padding: .5rem 1rem;
+        border-radius: 8rem;
+        top: 100%;
+        left: 12.5%;
+
+      }
+      :has(> tool-tip){
+        position: relative;
+        opacity: 0;
+        transition: opacity .3s ease ;
+
+      }:has(> tool-tip):hover tool-tip{
+        opacity: 1;
+
+      }.logoweb{
+        background-image: url("/logoweb.jpeg");
+        width: 700px;
+        height: 900px;
+        align-items: center;
+      }
